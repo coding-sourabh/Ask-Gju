@@ -27,3 +27,20 @@
   color: gray;
   font-size: small;
 }
+
+.widget__contentTitle > p:hover {
+  color: white;
+}
+
+.widget__content {
+  transition: all 0.3s ease-in-out;
+}
+
+.widget__content:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(0, 26, 255)
+  );
+}
+

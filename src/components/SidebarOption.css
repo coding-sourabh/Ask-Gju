@@ -40,3 +40,20 @@
   font-weight: 400;
   font-size: 13px;
 }
+
+.sidebarOption {
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebarOption:hover {
+  transform: scale(1.1);
+  background-color: blue;
+  color: white;
+  font-weight: 100;
+}
+
+.sidebarOption:hover > p {
+  color: white;
+  font-weight: 650;
+  font-size: 14px;
+}

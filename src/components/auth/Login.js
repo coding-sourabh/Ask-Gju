@@ -76,7 +76,7 @@ function Login() {
                   Sign Up With Email
                 </span>
                 . By continuing you indicate that you have read and agree to
-                Quora's
+                Ask Gju's
                 <span style={{ color: "blue", cursor: "pointer" }}>
                   Terms of Service{" "}
                 </span>
@@ -129,7 +129,7 @@ function Login() {
           <p>Privacy</p>
           <p>Terms</p>
           <p>Contact</p>
-          <p>&copy; Quora Fake Inc. 2021</p>
+          <p>&copy; Copyright Gju-Ask 2021</p>
         </div>
       </div>
     </div>

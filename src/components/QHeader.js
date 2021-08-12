@@ -7,6 +7,7 @@ import NotificationsOutlinedIcon from "@material-ui/icons/NotificationsOutlined"
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 import Modal from "react-modal";
+import headerLogo from './logo.png';
 
 import "./QHeader.css";
 import { Avatar, Button, Input } from "@material-ui/core";
@@ -47,7 +48,7 @@ function QHeader() {
     <div className="qHeader">
       <div className="qHeader__logo">
         <img
-          src="logo.png"
+          src={headerLogo}
           alt=""
         />
       </div>
